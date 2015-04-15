@@ -21,8 +21,8 @@ class ProductsController < ApplicationController
 		else
 			raise "File extension missing"
 		end
-		@path = "app/views/products/#{@product_id}.#{@format}"
-		@file = "#{@product_id}.#{@format}"
+		@path = "app/views/products/product.pdf"
+		@file = "product.pdf"
 	end
 
 end
